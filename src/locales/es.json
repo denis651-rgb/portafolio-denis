@@ -1,0 +1,105 @@
+{
+  "seo": {
+    "title": "Denis Guarayo Martínez | Ingeniero en Sistemas",
+    "description": "Portafolio profesional de Denis Guarayo Martínez, Ingeniero en Sistemas orientado al análisis, diseño, desarrollo e implementación de soluciones tecnológicas, sistemas empresariales, aplicaciones web y proyectos digitales.",
+    "locale": "es_BO"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "downloadCv": "Descargar CV",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "home": {
+    "greeting": "¡Hola!",
+    "intro": "Soy {{name}}",
+    "description": "Ingeniero en Sistemas enfocado en analizar, diseñar e implementar soluciones tecnológicas que ayuden a resolver problemas reales.",
+    "currentWork": "Tengo experiencia en el desarrollo de aplicaciones web, sistemas empresariales, APIs REST, bases de datos, plataformas administrativas y soluciones digitales orientadas a mejorar procesos, automatizar tareas y apoyar la gestión de información.",
+    "contactMe": "Contáctame:",
+    "whatsapp": "Escríbeme por WhatsApp",
+    "whatsappMessage": "Hola Denis, vi tu portafolio y quiero contactarte.",
+    "aboutButton": "Más sobre mí",
+    "contactButton": "Contactarme",
+    "stats": {
+      "experience": "Experiencia práctica",
+      "projects": "Proyectos desarrollados"
+    }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "cards": {
+      "who": {
+        "title": "¿Quién soy?",
+        "body": "Soy Denis Guarayo Martínez, Ingeniero en Sistemas con interés en la tecnología, el desarrollo de software, el análisis de procesos y la creación de soluciones digitales útiles para personas y empresas."
+      },
+      "goal": {
+        "title": "Mi objetivo",
+        "body": "Aplicar mis conocimientos para analizar necesidades, proponer soluciones tecnológicas y participar en proyectos que mejoren procesos, automaticen tareas y generen valor real."
+      },
+      "profile": {
+        "title": "Mi perfil",
+        "body": "Me considero una persona responsable, adaptable y comprometida con la calidad. Me gusta aprender constantemente, trabajar con orden y buscar soluciones claras, funcionales y eficientes."
+      }
+    },
+    "skillsTitle": "Habilidades técnicas"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "viewDetails": "Ver detalles",
+    "viewVideo": "Ver video demo",
+    "viewCode": "Ver código en GitHub",
+    "code": "Código",
+    "back": "Volver",
+    "notFound": "Proyecto no encontrado",
+    "includes": "Funcionalidades principales",
+    "screenshots": "Capturas",
+    "previewAlt": "Vista previa",
+    "status": "Estado",
+    "availability": "Disponibilidad",
+    "notDeployed": "No desplegado actualmente",
+    "caseStudy": "Caso de estudio",
+    "problem": "Problema",
+    "solution": "Solución",
+    "myRole": "Mi rol",
+    "technologies": "Tecnologías utilizadas",
+    "repository": "Repositorio",
+    "sourceCode": "Código fuente",
+    "privateCode": "Código privado",
+    "reviewMode": "Disponible mediante capturas, video demostrativo y explicación técnica.",
+    "notDeployedNotice": "Este proyecto no se encuentra desplegado públicamente en este momento. Sin embargo, puede revisarse mediante capturas, video demostrativo, explicación técnica y código fuente disponible."
+  },
+  "contact": {
+    "title": "¡Hablemos!",
+    "name": "Tu nombre",
+    "email": "Tu correo electrónico",
+    "message": "Mensaje",
+    "submit": "Enviar mensaje",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "No se pudo enviar el mensaje. Inténtalo nuevamente.",
+    "workTogether": "Trabajemos juntos",
+    "description": "Estoy abierto a colaborar en proyectos tecnológicos, sistemas empresariales, aplicaciones web, soluciones digitales o ideas que necesiten análisis, diseño e implementación. Si tienes una propuesta, consulta o proyecto, puedes contactarme a través del formulario o por mis redes sociales.",
+    "findMe": "También puedes encontrarme en:"
+  },
+  "social": {
+    "whatsapp": "WhatsApp",
+    "email": "Correo electrónico",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "theme": {
+    "toggle": "Cambiar tema: {{mode}}",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "language": {
+    "label": "Cambiar idioma"
+  }
+}

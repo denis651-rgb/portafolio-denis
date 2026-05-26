@@ -1,5 +1,56 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-input: var(--input);
+}
+
+:root {
+  color-scheme: light;
+  --background: #f8fafc;
+  --foreground: #1f2937;
+  --card: #ffffff;
+  --card-foreground: #1f2937;
+  --border: #dbeafe;
+  --muted: #eef6ff;
+  --muted-foreground: #4b5563;
+  --accent: #0891b2;
+  --accent-foreground: #ffffff;
+  --input: #ffffff;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: #020617;
+  --foreground: #f8fafc;
+  --card: #1e293b;
+  --card-foreground: #f8fafc;
+  --border: #0e7490;
+  --muted: #0f172a;
+  --muted-foreground: #cbd5e1;
+  --accent: #00d9c0;
+  --accent-foreground: #001b1f;
+  --input: #0f172a;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  min-width: 320px;
+  background: var(--background);
+  color: var(--foreground);
+}
+
 @keyframes spinSlow {
   from {
     transform: rotate(0deg);
@@ -22,11 +73,11 @@
 }
 
 .animate-float {
-  animation: float cubic-bezier(0.47, 0, 0.745, 0.715) ease-in-out infinite;
-}*/
+  animation: float 3s cubic-bezier(0.47, 0, 0.745, 0.715) infinite;
+}
 
 
-/*ANIMACION PARA LOS LOGOS DE LOS LENGUAJES*/
+/* Animacion para los logos de los lenguajes */
 
 .scroll-logos-wrapper {
   overflow: hidden;
@@ -39,6 +90,7 @@
   width: max-content;
   animation: scroll-left 60s linear infinite;
   gap: 2.5rem;
+  will-change: transform;
 }
 
 @keyframes scroll-left {

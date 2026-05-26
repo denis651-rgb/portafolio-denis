@@ -1,12 +1,34 @@
-# React + Vite
+# Portafolio Denis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio personal desarrollado con React, Vite y Tailwind CSS. Incluye secciones de presentacion, habilidades, proyectos y contacto.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js 20 o superior
+- npm
 
-## Expanding the ESLint configuration
+## Instalacion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+## Scripts
+
+```bash
+npm run dev
+npm run build
+npm run lint
+npm run preview
+```
+
+## Estructura principal
+
+- `src/`: componentes, paginas y datos del portafolio.
+- `public/`: imagenes, CV y recursos estaticos.
+- `vite.config.js`: configuracion de Vite.
+- `vercel.json`: rewrites para despliegue en Vercel.
+
+## Notas
+
+Las carpetas `node_modules/` y `dist/` no deben subirse al repositorio. Se regeneran con `npm install` y `npm run build`.
