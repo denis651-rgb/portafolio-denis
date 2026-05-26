@@ -9,6 +9,10 @@ export const projects = [
       es: "Sistema empresarial SaaS",
       en: "SaaS business system",
     },
+    projectType: {
+      es: "Caso real",
+      en: "Real case",
+    },
     status: {
       es: "En desarrollo avanzado",
       en: "In advanced development",
@@ -72,6 +76,10 @@ export const projects = [
       es: "Sistema web de ventas",
       en: "Web sales system",
     },
+    projectType: {
+      es: "Caso real",
+      en: "Real case",
+    },
     status: {
       es: "Sistema funcional",
       en: "Functional system",
@@ -134,6 +142,89 @@ export const projects = [
     ],
   },
   {
+    slug: "cell-repair-desktop",
+    title: {
+      es: "Cell Repair Desktop",
+      en: "Cell Repair Desktop",
+    },
+    category: {
+      es: "Sistema de escritorio",
+      en: "Desktop system",
+    },
+    projectType: {
+      es: "Caso real",
+      en: "Real case",
+    },
+    status: {
+      es: "Sistema implementado y en uso",
+      en: "Implemented system in active use",
+    },
+    availability: {
+      es: "Instalado y utilizado actualmente en la tienda",
+      en: "Installed and currently used in the shop",
+    },
+    reviewMode: {
+      es: "Disponible mediante capturas, video demostrativo y explicación técnica del sistema en uso.",
+      en: "Available through screenshots, demo video, and technical explanation of the system in use.",
+    },
+    description: {
+      es: "Sistema de escritorio para una tienda de reparación de celulares, implementado para gestionar clientes, dispositivos, órdenes de reparación, ventas, compras, inventario, cuentas por cobrar, reportes y respaldos.",
+      en: "Desktop system for a cellphone repair shop, implemented to manage customers, devices, repair orders, sales, purchases, inventory, accounts receivable, reports, and backups.",
+    },
+    problem: {
+      es: "La tienda necesitaba dejar de depender de registros manuales para controlar reparaciones, ventas, inventario, cuentas pendientes y comprobantes, ya que eso dificultaba el seguimiento diario y la consulta de información.",
+      en: "The shop needed to stop relying on manual records to control repairs, sales, inventory, pending accounts, and receipts, because that made daily tracking and information lookup difficult.",
+    },
+    solution: {
+      es: "Se desarrolló una aplicación de escritorio con módulos conectados para registrar clientes, dispositivos, órdenes de reparación, compras, ventas, inventario, reportes, tickets y copias de seguridad, permitiendo operar el negocio desde una herramienta centralizada.",
+      en: "A desktop application was developed with connected modules for customers, devices, repair orders, purchases, sales, inventory, reports, tickets, and backups, allowing the business to operate from a centralized tool.",
+    },
+    role: {
+      es: "Análisis del flujo real de la tienda, diseño de la interfaz, modelado de datos, desarrollo de módulos principales, integración con base de datos local, generación de tickets y pruebas con uso real.",
+      en: "Analysis of the shop's real workflow, interface design, data modeling, main module development, local database integration, ticket generation, and testing with real use.",
+    },
+    cover: "/img/cell-repair/dashboard.JPG",
+    detailPath: "/proyectos/cell-repair-desktop",
+    codeUrl: "",
+    videoUrl: "https://www.youtube.com/watch?v=dlZ2OWdPNOY",
+    isDeployed: true,
+    isCodePrivate: true,
+    stack: ["Spring Boot", "React+vite", "SQLite", "Electron"],
+    features: {
+      es: [
+        "Registro de clientes.",
+        "Registro de equipos celulares.",
+        "Gestión de órdenes de reparación.",
+        "Ventas, compras e inventario.",
+        "Cuentas por cobrar y reportes.",
+        "Generación de tickets y respaldos.",
+      ],
+      en: [
+        "Customer registration.",
+        "Cellphone device registration.",
+        "Repair order management.",
+        "Sales, purchases, and inventory.",
+        "Accounts receivable and reports.",
+        "Ticket generation and backups.",
+      ],
+    },
+    images: [
+      "/img/cell-repair/clientes.JPG",
+      "/img/cell-repair/compras.JPG",
+      "/img/cell-repair/contabilidad.JPG",
+      "/img/cell-repair/cuentas_por_cobrar.JPG",
+      "/img/cell-repair/dashboard.JPG",
+      "/img/cell-repair/dispositivos.JPG",
+      "/img/cell-repair/inventario.JPG",
+      "/img/cell-repair/login.JPG",
+      "/img/cell-repair/ordenes.JPG",
+      "/img/cell-repair/reportes.JPG",
+      "/img/cell-repair/respaldos.JPG",
+      "/img/cell-repair/ticket.JPG",
+      "/img/cell-repair/ventas.JPG",
+    ],
+  },
+  {
     slug: "bibliosys",
     title: {
       es: "Bibliosys",
@@ -142,6 +233,10 @@ export const projects = [
     category: {
       es: "Sistema web",
       en: "Web system",
+    },
+    projectType: {
+      es: "Caso de estudio",
+      en: "Case study",
     },
     status: {
       es: "MVP funcional / Proyecto académico",
@@ -206,6 +301,10 @@ export const projects = [
       es: "Aplicación móvil",
       en: "Mobile application",
     },
+    projectType: {
+      es: "Caso de estudio",
+      en: "Case study",
+    },
     status: {
       es: "Prototipo funcional",
       en: "Functional prototype",
@@ -268,6 +367,10 @@ export const projects = [
     category: {
       es: "Sistema web",
       en: "Web system",
+    },
+    projectType: {
+      es: "Caso de estudio",
+      en: "Case study",
     },
     status: {
       es: "Sistema web funcional",
@@ -336,6 +439,7 @@ export const getLocalizedProject = (project, language = "es") => ({
   ...project,
   title: localize(project.title, language),
   category: localize(project.category, language),
+  projectType: localize(project.projectType, language),
   status: localize(project.status, language),
   availability: localize(project.availability, language),
   reviewMode: localize(project.reviewMode, language),

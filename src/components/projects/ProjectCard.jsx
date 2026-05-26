@@ -19,7 +19,7 @@ export default function ProjectCard({ project }) {
         <div className="mb-3 flex items-center justify-between gap-3">
           <h3 className="text-2xl font-semibold">{project.title}</h3>
           <span className="shrink-0 rounded-full bg-muted px-3 py-1 text-xs font-semibold text-accent">
-            {t("projects.caseStudy")}
+            {project.projectType || t("projects.caseStudy")}
           </span>
         </div>
         <p className="mb-2 text-sm font-semibold text-accent">{project.category}</p>
