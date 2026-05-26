@@ -1,3 +1,5 @@
+import { projects } from "./projects";
+
 export const profile = {
   name: "Denis Martinez",
   brand: "Dev Martinez",
@@ -12,7 +14,7 @@ export const profile = {
       labelKey: "home.stats.experience",
     },
     {
-      value: "3+",
+      value: `${projects.length}`,
       labelKey: "home.stats.projects",
     },
   ],
